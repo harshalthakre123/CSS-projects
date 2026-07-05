@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* main */
+
+main{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5%
+}
+
+
+
+
+/* navbar */
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0px 82px 2px 82px;
+    justify-content: space-between;
+    height: 9%;
+    /* background-color: white; */
+}
+
+nav .left img{
+    margin-top: 2px;
+    margin-right: 12px;
+}
+nav .left{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+nav p{
+    font-size: 13px;
+}
+/* nav p:hover{
+    text-decoration: underline;
+    margin-bottom: 2px;
+    border-bottom: 2px solid black;
+} */
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.ri-search-line, .ri-shopping-cart-2-line{
+    font-size: 18px;
+}
+
+.profile{
+    height: 37px;
+    width: 37px;
+    background-image: url(./images/ProfileImage.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;    
+    
+}
+
+
+
+
+/* section 1 */
+
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.section1bg{
+    width: 100%;
+    height: 95%;
+}
+
+.content{
+    width: 37.5%;
+    height: 46.5%;
+    background-color: white;
+    padding: 47px 48px 47px 48px;
+    /* padding-right: 48px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 20px;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+}
+.content h1{
+    font-size: 29px;
+    font-weight: 500;
+    margin-bottom: -4px;
+}
+.content p{
+    line-height: 24px;
+} 
+.content button{
+    width: fit-content;
+    font-size: 15px;
+    padding: 12px 15px 11px 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #0067b8;
+    /* height: 40px;
+    width: 110px; */
+    border-radius: 2px;
+    border: none;
+}
+
+
+
+
+
+
+/* Section 2 */
+
+.sec2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #0067b8;
+    font-weight: 500;
+}
+.sec2 img{
+    width: 40px;
+}
+
+
+
+
+
+/* section 3 */
+
+.sec3{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sec3 .box{
+    height:77.5%;
+    width: 21.1%;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.267);
+}
+
+.sec3 img{
+    height: 40%;
+    width: 100%;
+}
+
+.box_text{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box_text h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.box_text button{
+    width: fit-content;
+    color: white;
+    background-color: #0067b8;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 12px 10px 12px;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+
+
+
+/* Section 4 and 6*/
+
+#sec4, #sec6{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.sec4{
+    height: 95%;
+    width: 100%;
+    background-image: url(./images/sec4bg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.sec4-box{
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    height: 40%;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.sec4 h1, .sec6 h1{
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.sec4 p, .sec6 p{
+    line-height: 25px;
+}
+
+.sec4 button , .sec6 button{
+    width: fit-content;
+    color: white;
+    background-color: #0067b8;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 11px 13px 11px 13px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+
+/* section 5 */
+
+#sec5{
+    height: 100%;
+    width: 100%;
+}
+#sec5 h1{
+    margin-left: 5%;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.sec5{
+    margin-top: 1.5%;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sec5 .box{
+    height:88%;
+    letter-spacing: 0.5px;
+    width: 21.1%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.267);
+}
+
+.sec5 img{
+    height: 34%;
+    width: 100%;
+}
+
+.sec5 .tagarea{
+    height: 12%;
+    width: 100%;
+}
+.sec5 .newtag{
+    padding: 3px 12px 3px 12px;
+    font-weight: 500;
+    background-color: rgb(255,185,0);
+}
+
+.sec5 .box_text{
+    height: 66%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sec5 .box_text h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.sec5 .box_text button{
+    width: fit-content;
+    color: white;
+    background-color: #0067b8;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 12px 10px 12px;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+
+
+/* Section 6 */
+#sec6{
+    padding: 13px;
+}
+.sec6{
+    height: 90%;
+    width: 100%;
+    background-image: url(./images/sec6bg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.sec6-box{
+    position: absolute;
+    top: 30%;
+    right: 12%;
+    height: 40%;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+
+
+/* Footer */
+
+footer{
+    height: 65%;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.foot-box1{
+    height: 80% ;
+    width: 100%;
+    padding: 3% 2% 0% 2% ;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.foot-box1 h4{
+    margin-bottom: 3%;
+    font-weight: 600;
+    color: rgb(97,97,97);
+    font-size: 16px;
+}
+
+footer ul{
+    font-size: 11px;
+    list-style: none;
+    line-height: 30px;
+}
+footer a{
+    
+    text-decoration: none;
+    color: rgb(97,97,97);
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+.foot-box2 {
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+
+.foot-box2 .footbox1{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%;
+}
+
+.foot-box2 .footbox2{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.foot-box2 ul{
+    display: flex;
+    justify-content: space-evenly;
+} 
