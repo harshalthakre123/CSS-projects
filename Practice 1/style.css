@@ -1,0 +1,152 @@
+*{ 
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+html, body{
+height: 100%;
+width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 0% 4vw;
+}
+
+#section-1{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 9%;
+    width: 100%;
+    /* padding: 10px 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header i{
+    font-size: 28px;
+}
+
+.header h1{
+    font-size: 30px;
+}
+
+.links{
+    display: flex;
+    gap: 15px;
+    width: 60%;
+    justify-content: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn{
+    display: flex;
+    gap: 15px;    
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(218, 218, 218);
+}
+
+button:nth-child(2n){
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.hero-div{
+    height: calc(100% - 9%);
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.hero-div .left{
+    height: 100%;
+    width: 40%;
+    padding: 5vw 2vw;
+}
+
+.ratings{
+    height: 15%;
+    width: 40%;
+    background-color: white;
+    border-radius: 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ratings i{
+    font-size: larger;
+}
+
+.ratings h4{
+    font-weight: 500;
+}
+
+
+.ratings span{
+    font-size: small;
+    color: rgb(158, 158, 158);
+}
+
+.hero-head{
+    height: 70%;
+    width: 100%;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+
+.hero-heading{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.hero-div .right{
+    height: 100%;
+    width: 60%;
+    background-color: blueviolet;
+    overflow: hidden;
+    
+}
+
+.right img{
+    height: 100%;
+    transform: translateX(-33%) scale(1.1);
+    
+}
